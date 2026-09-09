@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Superstore EDA Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f6f8;
+    color:#222;
+}
+header{
+    background:#1f4e79;
+    color:white;
+    padding:35px 20px;
+    text-align:center;
+}
+header h1{margin:0 0 10px;font-size:32px}
+.container{
+    max-width:1100px;
+    margin:30px auto;
+    padding:0 20px;
+}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:18px;
+}
+.card{
+    background:white;
+    padding:22px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+.card h3{
+    margin-top:0;
+    color:#1f4e79;
+}
+.number{
+    font-size:28px;
+    font-weight:bold;
+}
+.chart-card{
+    background:white;
+    margin-top:25px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+canvas{
+    max-height:400px;
+}
+footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+    background:#1f4e79;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>📊 Superstore EDA Dashboard</h1>
+<p>Task 2 – Exploratory Data Analysis</p>
+<p>Python • Pandas • Matplotlib • Seaborn</p>
+</header>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+<h3>Total Records</h3>
+<div class="number" id="records">Loading...</div>
+</div>
+
+<div class="card">
+<h3>Total Sales</h3>
+<div class="number" id="sales">Loading...</div>
+</div>
+
+<div class="card">
+<h3>Total Profit</h3>
+<div class="number" id="profit">Loading...</div>
+</div>
+
+<div class="card">
+<h3>Total Quantity</h3>
+<div class="number" id="quantity">Loading...</div>
+</div>
+
+</div>
+
+<div class="chart-card">
+<h2>Sales by Category</h2>
+<canvas id="categoryChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h2>Profit by Category</h2>
+<canvas id="profitChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h2>Monthly Sales Trend</h2>
+<canvas id="monthlyChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h2>Sales Distribution</h2>
+<canvas id="salesChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h2>EDA Insights</h2>
+<ul>
+<li>Sales are concentrated mainly in the lower sales-value range.</li>
+<li>Profit values show variation and potential outliers.</li>
+<li>Sales and profit performance varies across product categories.</li>
+<li>Monthly sales fluctuate over time.</li>
+<li>The dashboard provides a visual overview of important business patterns.</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+Task 2 – Exploratory Data Analysis | Internship Project
+</footer>
+
+<script>
+
+async function loadData(){
+
+const response = await fetch("SampleSuperstore.csv");
+const text = await response.text();
+
+const rows = text.trim().split("\n");
+
+const headers = rows[0].split(",");
+
+const data = rows.slice(1).map(row => {
+
+let values = row.split(",");
+
+return {
+sales: parseFloat(values[12]),
+quantity: parseFloat(values[13]),
+profit: parseFloat(values[15]),
+category: values[9],
+date: values[1]
+};
+
+});
+
+document.getElementById("records").innerText = data.length;
+
+const totalSales = data.reduce((a,b)=>a+b.sales,0);
+const totalProfit = data.reduce((a,b)=>a+b.profit,0);
+const totalQuantity = data.reduce((a,b)=>a+b.quantity,0);
+
+document.getElementById("sales").innerText =
+"$" + totalSales.toFixed(2);
+
+document.getElementById("profit").innerText =
+"$" + totalProfit.toFixed(2);
+
+document.getElementById("quantity").innerText =
+totalQuantity;
+
+let categories = {};
+
+data.forEach(d=>{
+if(!categories[d.category]) categories[d.category]=0;
+categories[d.category]+=d.sales;
+});
+
+new Chart(document.getElementById("categoryChart"),{
+type:"bar",
+data:{
+labels:Object.keys(categories),
+datasets:[{
+label:"Total Sales",
+data:Object.values(categories)
+}]
+},
+options:{
+responsive:true
+}
+});
+
+let profits = {};
+
+data.forEach(d=>{
+if(!profits[d.category]) profits[d.category]=0;
+profits[d.category]+=d.profit;
+});
+
+new Chart(document.getElementById("profitChart"),{
+type:"bar",
+data:{
+labels:Object.keys(profits),
+datasets:[{
+label:"Total Profit",
+data:Object.values(profits)
+}]
+},
+options:{
+responsive:true
+}
+});
+
+let monthly = {};
+
+data.forEach(d=>{
+
+let date = new Date(d.date);
+
+if(!isNaN(date)){
+let month =
+date.getFullYear()+"-"+String(date.getMonth()+1).padStart(2,"0");
+
+if(!monthly[month]) monthly[month]=0;
+
+monthly[month]+=d.sales;
+}
+
+});
+
+let months = Object.keys(monthly).sort();
+
+new Chart(document.getElementById("monthlyChart"),{
+type:"line",
+data:{
+labels:months,
+datasets:[{
+label:"Monthly Sales",
+data:months.map(m=>monthly[m]),
+tension:.3
+}]
+},
+options:{
+responsive:true
+}
+});
+
+new Chart(document.getElementById("salesChart"),{
+type:"bar",
+data:{
+labels:data.map((d,i)=>"Order "+(i+1)),
+datasets:[{
+label:"Sales",
+data:data.map(d=>d.sales)
+}]
+},
+options:{
+responsive:true,
+plugins:{
+legend:{display:false}
+}
+}
+});
+
+}
+
+loadData();
+
+</script>
+
+</body>
+</html>
