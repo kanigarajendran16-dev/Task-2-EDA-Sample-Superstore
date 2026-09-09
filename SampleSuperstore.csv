@@ -1,0 +1,204 @@
+Order ID,Order Date,Ship Date,Customer Name,Segment,Country,City,State,Region,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+CA-10000,2024-04-18,2024-04-22,Customer 1,Consumer,United States,Miami,Texas,West,Office Supplies,Art,Product 1,15.35,10,0.0,-16.96
+CA-10001,2023-04-27,2023-04-29,Customer 2,Consumer,United States,Chicago,Georgia,East,Technology,Machines,Product 2,38.95,2,0.2,11.1
+CA-10002,2023-05-07,2023-05-10,Customer 3,Consumer,United States,Chicago,Washington,East,Office Supplies,Binders,Product 3,173.3,8,0.1,8.52
+CA-10003,2024-01-28,2024-01-31,Customer 4,Home Office,United States,Chicago,Washington,East,Office Supplies,Art,Product 4,11.8,2,0.1,-1.17
+CA-10004,2024-10-02,2024-10-07,Customer 5,Corporate,United States,Atlanta,Florida,West,Furniture,Chairs,Product 5,107.94,4,0.1,11.54
+CA-10005,2023-02-27,2023-03-04,Customer 6,Corporate,United States,Atlanta,California,Central,Furniture,Furnishings,Product 6,100.95,1,0.1,-17.45
+CA-10006,2024-09-25,2024-09-26,Customer 7,Home Office,United States,Los Angeles,Florida,West,Furniture,Furnishings,Product 7,85.09,5,0.2,-19.78
+CA-10007,2024-05-27,2024-05-31,Customer 8,Home Office,United States,Atlanta,Florida,Central,Technology,Accessories,Product 8,98.15,9,0.0,16.03
+CA-10008,2023-04-06,2023-04-07,Customer 9,Corporate,United States,Seattle,Georgia,West,Office Supplies,Storage,Product 9,22.57,1,0.05,8.33
+CA-10009,2024-09-29,2024-10-04,Customer 10,Corporate,United States,New York City,Washington,West,Office Supplies,Labels,Product 10,100.41,9,0.0,23.99
+CA-10010,2023-04-28,2023-04-30,Customer 11,Corporate,United States,Columbus,California,East,Furniture,Bookcases,Product 11,35.18,8,0.2,-18.04
+CA-10011,2024-07-13,2024-07-18,Customer 12,Corporate,United States,Columbus,Illinois,South,Technology,Machines,Product 12,10.0,6,0.0,9.64
+CA-10012,2024-08-23,2024-08-27,Customer 13,Corporate,United States,Los Angeles,Georgia,South,Technology,Phones,Product 13,57.16,7,0.3,0.77
+CA-10013,2024-05-02,2024-05-07,Customer 14,Consumer,United States,Atlanta,Florida,Central,Furniture,Bookcases,Product 14,27.79,3,0.1,-8.51
+CA-10014,2023-08-25,2023-08-29,Customer 15,Home Office,United States,Seattle,Florida,South,Furniture,Chairs,Product 15,161.91,1,0.2,-2.93
+CA-10015,2023-09-29,2023-10-03,Customer 16,Consumer,United States,Miami,Illinois,West,Furniture,Furnishings,Product 16,43.42,5,0.4,7.02
+CA-10016,2023-07-08,2023-07-12,Customer 17,Corporate,United States,Los Angeles,Florida,West,Office Supplies,Labels,Product 17,56.63,2,0.2,6.69
+CA-10017,2024-12-04,2024-12-08,Customer 18,Corporate,United States,Seattle,Florida,East,Office Supplies,Paper,Product 18,74.54,5,0.3,1.72
+CA-10018,2024-03-22,2024-03-26,Customer 19,Corporate,United States,Miami,Florida,East,Office Supplies,Paper,Product 19,44.08,8,0.1,7.55
+CA-10019,2024-08-03,2024-08-05,Customer 20,Consumer,United States,Seattle,Ohio,South,Furniture,Chairs,Product 20,50.25,9,0.15,13.78
+CA-10020,2023-09-04,2023-09-05,Customer 21,Consumer,United States,Miami,Georgia,Central,Office Supplies,Storage,Product 21,107.22,2,0.0,14.92
+CA-10021,2023-03-17,2023-03-20,Customer 22,Corporate,United States,Houston,New York,South,Furniture,Furnishings,Product 22,23.26,3,0.0,3.44
+CA-10022,2023-06-03,2023-06-04,Customer 23,Consumer,United States,Seattle,Georgia,South,Furniture,Bookcases,Product 23,31.14,3,0.1,15.99
+CA-10023,2024-10-17,2024-10-21,Customer 24,Consumer,United States,Columbus,Illinois,South,Office Supplies,Binders,Product 24,25.19,1,0.15,-1.9
+CA-10024,2024-03-10,2024-03-12,Customer 25,Corporate,United States,Chicago,Florida,South,Office Supplies,Art,Product 25,172.33,8,0.05,29.39
+CA-10025,2023-03-27,2023-04-01,Customer 26,Consumer,United States,Atlanta,Georgia,West,Technology,Phones,Product 26,31.14,6,0.15,-1.92
+CA-10026,2024-11-27,2024-11-29,Customer 27,Home Office,United States,Miami,Ohio,Central,Furniture,Furnishings,Product 27,48.69,8,0.3,-5.72
+CA-10027,2023-10-12,2023-10-16,Customer 28,Home Office,United States,Houston,Washington,West,Office Supplies,Binders,Product 28,33.77,9,0.15,1.54
+CA-10028,2023-08-08,2023-08-10,Customer 29,Home Office,United States,Seattle,Illinois,Central,Office Supplies,Labels,Product 29,42.67,5,0.2,8.74
+CA-10029,2023-03-10,2023-03-12,Customer 30,Home Office,United States,Columbus,Texas,East,Furniture,Bookcases,Product 30,30.27,3,0.2,15.24
+CA-10030,2023-02-16,2023-02-20,Customer 31,Corporate,United States,Chicago,Georgia,South,Office Supplies,Art,Product 31,79.06,5,0.4,-1.21
+CA-10031,2023-04-04,2023-04-06,Customer 32,Corporate,United States,Miami,Texas,West,Furniture,Furnishings,Product 32,23.74,5,0.15,-16.75
+CA-10032,2024-03-28,2024-03-31,Customer 33,Corporate,United States,Seattle,Florida,Central,Furniture,Furnishings,Product 33,18.5,5,0.2,8.13
+CA-10033,2023-07-23,2023-07-26,Customer 34,Home Office,United States,Seattle,Ohio,East,Technology,Copiers,Product 34,34.93,3,0.4,30.14
+CA-10034,2023-08-06,2023-08-08,Customer 35,Home Office,United States,Miami,Ohio,East,Technology,Machines,Product 35,28.83,10,0.3,3.18
+CA-10035,2024-04-18,2024-04-23,Customer 36,Consumer,United States,Los Angeles,Georgia,South,Technology,Machines,Product 36,18.72,4,0.0,-16.76
+CA-10036,2024-03-07,2024-03-11,Customer 37,Consumer,United States,Los Angeles,Illinois,Central,Office Supplies,Binders,Product 37,42.15,9,0.1,6.46
+CA-10037,2023-12-07,2023-12-10,Customer 38,Home Office,United States,Columbus,Illinois,West,Furniture,Furnishings,Product 38,14.47,10,0.05,1.37
+CA-10038,2024-07-04,2024-07-09,Customer 39,Home Office,United States,Chicago,Ohio,South,Office Supplies,Binders,Product 39,217.5,9,0.0,31.58
+CA-10039,2024-09-03,2024-09-05,Customer 40,Home Office,United States,Miami,Illinois,West,Office Supplies,Art,Product 40,16.54,2,0.15,12.71
+CA-10040,2023-10-16,2023-10-21,Customer 41,Home Office,United States,Columbus,Ohio,East,Furniture,Tables,Product 41,32.56,8,0.2,17.52
+CA-10041,2023-09-11,2023-09-12,Customer 42,Consumer,United States,Columbus,Georgia,West,Office Supplies,Storage,Product 42,39.53,8,0.2,10.57
+CA-10042,2023-12-23,2023-12-26,Customer 43,Home Office,United States,New York City,New York,West,Furniture,Chairs,Product 43,210.13,7,0.0,23.62
+CA-10043,2023-01-23,2023-01-25,Customer 44,Consumer,United States,Seattle,Ohio,South,Technology,Machines,Product 44,13.68,8,0.3,14.4
+CA-10044,2024-06-05,2024-06-09,Customer 45,Home Office,United States,Atlanta,Texas,West,Furniture,Chairs,Product 45,61.17,3,0.15,-14.71
+CA-10045,2023-04-10,2023-04-12,Customer 46,Home Office,United States,Seattle,Illinois,South,Office Supplies,Labels,Product 46,125.18,6,0.2,-1.08
+CA-10046,2023-06-29,2023-07-03,Customer 47,Home Office,United States,Los Angeles,Ohio,East,Office Supplies,Labels,Product 47,42.61,1,0.3,-6.62
+CA-10047,2023-08-11,2023-08-13,Customer 48,Consumer,United States,Chicago,Ohio,South,Office Supplies,Labels,Product 48,21.42,7,0.15,1.4
+CA-10048,2024-10-20,2024-10-25,Customer 49,Consumer,United States,Seattle,Georgia,South,Office Supplies,Labels,Product 49,50.08,1,0.05,12.47
+CA-10049,2024-03-17,2024-03-22,Customer 50,Corporate,United States,Miami,Illinois,Central,Furniture,Bookcases,Product 50,185.25,9,0.2,3.15
+CA-10050,2024-08-30,2024-09-04,Customer 51,Home Office,United States,Columbus,New York,West,Technology,Machines,Product 51,33.36,1,0.05,-4.95
+CA-10051,2023-11-21,2023-11-22,Customer 52,Corporate,United States,Miami,Georgia,East,Technology,Accessories,Product 52,172.25,1,0.0,46.15
+CA-10052,2024-05-30,2024-06-03,Customer 53,Corporate,United States,New York City,New York,South,Technology,Copiers,Product 53,67.15,7,0.2,4.56
+CA-10053,2023-01-16,2023-01-21,Customer 54,Consumer,United States,Chicago,Washington,East,Technology,Machines,Product 54,146.35,2,0.05,27.2
+CA-10054,2023-12-02,2023-12-03,Customer 55,Consumer,United States,Columbus,Georgia,Central,Office Supplies,Storage,Product 55,65.04,5,0.2,10.52
+CA-10055,2023-09-15,2023-09-19,Customer 56,Corporate,United States,Miami,Illinois,West,Technology,Accessories,Product 56,37.06,8,0.05,7.04
+CA-10056,2024-05-11,2024-05-13,Customer 57,Home Office,United States,Los Angeles,California,South,Furniture,Bookcases,Product 57,202.57,8,0.3,-2.52
+CA-10057,2023-06-09,2023-06-10,Customer 58,Consumer,United States,Atlanta,Illinois,West,Furniture,Chairs,Product 58,65.38,3,0.0,20.21
+CA-10058,2024-04-19,2024-04-22,Customer 59,Home Office,United States,New York City,Illinois,Central,Furniture,Bookcases,Product 59,62.37,7,0.4,-1.93
+CA-10059,2024-10-25,2024-10-26,Customer 60,Home Office,United States,Chicago,New York,Central,Office Supplies,Art,Product 60,104.17,3,0.2,16.6
+CA-10060,2024-11-20,2024-11-21,Customer 61,Corporate,United States,New York City,New York,East,Office Supplies,Binders,Product 61,114.36,6,0.0,23.69
+CA-10061,2024-11-05,2024-11-09,Customer 62,Corporate,United States,Los Angeles,Illinois,South,Furniture,Bookcases,Product 62,104.61,6,0.15,29.69
+CA-10062,2024-01-15,2024-01-17,Customer 63,Corporate,United States,Chicago,Illinois,East,Technology,Copiers,Product 63,18.53,3,0.4,5.28
+CA-10063,2024-06-28,2024-07-01,Customer 64,Corporate,United States,New York City,Illinois,Central,Office Supplies,Appliances,Product 64,32.79,7,0.1,11.1
+CA-10064,2024-11-21,2024-11-26,Customer 65,Consumer,United States,Houston,New York,West,Furniture,Furnishings,Product 65,32.29,3,0.0,17.09
+CA-10065,2024-03-02,2024-03-07,Customer 66,Consumer,United States,Los Angeles,Illinois,East,Office Supplies,Storage,Product 66,29.28,8,0.1,3.84
+CA-10066,2024-09-04,2024-09-05,Customer 67,Corporate,United States,Los Angeles,Illinois,East,Furniture,Furnishings,Product 67,27.18,10,0.1,-5.62
+CA-10067,2023-09-25,2023-09-29,Customer 68,Consumer,United States,Los Angeles,Washington,West,Technology,Machines,Product 68,31.92,4,0.2,-2.18
+CA-10068,2024-07-30,2024-08-03,Customer 69,Corporate,United States,Houston,Florida,East,Furniture,Furnishings,Product 69,71.43,1,0.15,-1.82
+CA-10069,2024-02-21,2024-02-26,Customer 70,Home Office,United States,Houston,California,West,Technology,Phones,Product 70,81.09,4,0.1,1.16
+CA-10070,2023-06-17,2023-06-20,Customer 71,Home Office,United States,Miami,Texas,South,Technology,Copiers,Product 71,54.53,7,0.0,14.72
+CA-10071,2023-02-12,2023-02-14,Customer 72,Home Office,United States,Columbus,California,West,Furniture,Bookcases,Product 72,38.83,4,0.15,-5.52
+CA-10072,2024-07-09,2024-07-12,Customer 73,Corporate,United States,Atlanta,Florida,South,Furniture,Furnishings,Product 73,151.47,6,0.1,13.7
+CA-10073,2023-10-12,2023-10-14,Customer 74,Home Office,United States,New York City,Texas,West,Technology,Copiers,Product 74,50.74,9,0.0,8.24
+CA-10074,2024-02-01,2024-02-06,Customer 75,Consumer,United States,Miami,Georgia,Central,Office Supplies,Labels,Product 75,115.54,1,0.3,1.23
+CA-10075,2023-01-12,2023-01-14,Customer 76,Home Office,United States,New York City,Illinois,Central,Office Supplies,Appliances,Product 76,34.62,5,0.15,9.53
+CA-10076,2024-08-29,2024-09-02,Customer 77,Home Office,United States,Atlanta,Florida,South,Technology,Accessories,Product 77,76.02,7,0.15,3.57
+CA-10077,2023-10-29,2023-10-30,Customer 78,Home Office,United States,Columbus,Washington,South,Furniture,Bookcases,Product 78,159.76,1,0.2,12.46
+CA-10078,2023-09-10,2023-09-11,Customer 79,Consumer,United States,Houston,Georgia,Central,Office Supplies,Labels,Product 79,10.0,4,0.1,19.86
+CA-10079,2024-05-13,2024-05-18,Customer 80,Corporate,United States,Columbus,Illinois,South,Furniture,Tables,Product 80,32.33,6,0.2,5.09
+CA-10080,2023-02-04,2023-02-08,Customer 81,Consumer,United States,Houston,New York,West,Technology,Copiers,Product 81,87.79,2,0.1,4.22
+CA-10081,2024-12-27,2024-12-30,Customer 82,Corporate,United States,Atlanta,Ohio,West,Office Supplies,Binders,Product 82,144.06,10,0.0,14.23
+CA-10082,2023-03-31,2023-04-04,Customer 83,Corporate,United States,Columbus,Florida,Central,Office Supplies,Appliances,Product 83,64.23,5,0.1,3.76
+CA-10083,2024-08-27,2024-08-28,Customer 84,Home Office,United States,Miami,New York,East,Furniture,Furnishings,Product 84,56.81,10,0.1,-2.88
+CA-10084,2024-08-24,2024-08-25,Customer 85,Corporate,United States,Chicago,Florida,West,Office Supplies,Appliances,Product 85,198.04,1,0.2,-0.01
+CA-10085,2024-02-22,2024-02-26,Customer 86,Consumer,United States,Miami,Washington,South,Office Supplies,Binders,Product 86,151.29,6,0.0,24.55
+CA-10086,2023-04-25,2023-04-29,Customer 87,Consumer,United States,New York City,Florida,East,Office Supplies,Labels,Product 87,27.25,6,0.0,1.43
+CA-10087,2024-09-08,2024-09-09,Customer 88,Corporate,United States,Miami,New York,East,Office Supplies,Appliances,Product 88,59.93,4,0.0,11.27
+CA-10088,2023-07-15,2023-07-18,Customer 89,Home Office,United States,Atlanta,Washington,West,Technology,Machines,Product 89,72.83,8,0.0,28.8
+CA-10089,2024-05-15,2024-05-20,Customer 90,Home Office,United States,Los Angeles,Texas,West,Office Supplies,Storage,Product 90,215.91,4,0.2,10.12
+CA-10090,2024-09-17,2024-09-22,Customer 91,Consumer,United States,New York City,California,East,Furniture,Furnishings,Product 91,109.16,8,0.0,-1.13
+CA-10091,2024-05-07,2024-05-11,Customer 92,Home Office,United States,Columbus,Illinois,East,Office Supplies,Binders,Product 92,50.26,8,0.15,-0.64
+CA-10092,2023-03-16,2023-03-21,Customer 93,Corporate,United States,New York City,Florida,Central,Technology,Copiers,Product 93,65.11,5,0.1,19.34
+CA-10093,2024-02-17,2024-02-18,Customer 94,Corporate,United States,Chicago,Illinois,South,Office Supplies,Appliances,Product 94,12.1,4,0.15,9.12
+CA-10094,2024-01-11,2024-01-12,Customer 95,Consumer,United States,Houston,Ohio,Central,Technology,Phones,Product 95,118.5,2,0.2,19.26
+CA-10095,2024-02-24,2024-02-28,Customer 96,Corporate,United States,Columbus,New York,West,Office Supplies,Binders,Product 96,91.52,3,0.1,2.11
+CA-10096,2024-12-29,2025-01-02,Customer 97,Consumer,United States,Seattle,Illinois,Central,Office Supplies,Storage,Product 97,143.99,3,0.2,17.66
+CA-10097,2023-10-04,2023-10-08,Customer 98,Corporate,United States,New York City,New York,Central,Office Supplies,Paper,Product 98,48.66,4,0.1,16.83
+CA-10098,2024-11-06,2024-11-09,Customer 99,Consumer,United States,Columbus,Illinois,Central,Furniture,Bookcases,Product 99,60.49,4,0.05,-2.45
+CA-10099,2024-01-29,2024-02-03,Customer 100,Home Office,United States,Columbus,California,Central,Furniture,Chairs,Product 100,37.15,10,0.4,-2.73
+CA-10100,2024-04-01,2024-04-05,Customer 101,Corporate,United States,Columbus,California,South,Furniture,Tables,Product 101,21.79,5,0.0,26.86
+CA-10101,2023-07-11,2023-07-13,Customer 102,Corporate,United States,Houston,Washington,South,Office Supplies,Labels,Product 102,33.72,4,0.0,-3.82
+CA-10102,2024-11-19,2024-11-21,Customer 103,Consumer,United States,Seattle,California,East,Office Supplies,Paper,Product 103,12.74,10,0.2,-19.7
+CA-10103,2023-04-09,2023-04-10,Customer 104,Consumer,United States,Atlanta,Washington,West,Office Supplies,Storage,Product 104,113.49,8,0.0,33.62
+CA-10104,2024-07-01,2024-07-06,Customer 105,Corporate,United States,Miami,California,Central,Technology,Copiers,Product 105,10.0,6,0.2,14.74
+CA-10105,2023-04-06,2023-04-10,Customer 106,Consumer,United States,Columbus,California,East,Furniture,Chairs,Product 106,277.47,6,0.1,15.33
+CA-10106,2024-10-25,2024-10-27,Customer 107,Corporate,United States,Los Angeles,California,East,Office Supplies,Paper,Product 107,13.31,8,0.3,-1.16
+CA-10107,2024-10-24,2024-10-29,Customer 108,Home Office,United States,Atlanta,New York,East,Technology,Copiers,Product 108,181.26,7,0.2,5.24
+CA-10108,2023-07-09,2023-07-10,Customer 109,Consumer,United States,Chicago,Florida,South,Furniture,Tables,Product 109,26.41,10,0.15,2.45
+CA-10109,2023-02-06,2023-02-09,Customer 110,Corporate,United States,Houston,Washington,Central,Furniture,Chairs,Product 110,85.53,10,0.3,12.71
+CA-10110,2024-01-04,2024-01-09,Customer 111,Home Office,United States,New York City,Illinois,Central,Furniture,Tables,Product 111,29.91,8,0.05,-3.6
+CA-10111,2024-11-25,2024-11-30,Customer 112,Home Office,United States,Houston,California,West,Furniture,Chairs,Product 112,208.3,2,0.4,-1.97
+CA-10112,2024-06-08,2024-06-11,Customer 113,Corporate,United States,New York City,New York,Central,Technology,Machines,Product 113,56.54,9,0.0,16.87
+CA-10113,2023-10-06,2023-10-11,Customer 114,Consumer,United States,Houston,New York,Central,Technology,Machines,Product 114,128.89,1,0.1,26.91
+CA-10114,2023-08-05,2023-08-06,Customer 115,Corporate,United States,New York City,New York,East,Office Supplies,Paper,Product 115,58.02,8,0.0,2.89
+CA-10115,2023-09-30,2023-10-01,Customer 116,Home Office,United States,Columbus,Washington,West,Technology,Accessories,Product 116,72.41,4,0.1,6.97
+CA-10116,2023-03-03,2023-03-06,Customer 117,Corporate,United States,Miami,Florida,Central,Technology,Accessories,Product 117,89.38,4,0.0,-4.29
+CA-10117,2024-08-18,2024-08-22,Customer 118,Consumer,United States,New York City,Washington,South,Furniture,Bookcases,Product 118,35.77,5,0.2,-5.73
+CA-10118,2024-12-29,2024-12-31,Customer 119,Home Office,United States,Seattle,Illinois,Central,Technology,Copiers,Product 119,19.6,8,0.2,16.12
+CA-10119,2023-12-08,2023-12-12,Customer 120,Corporate,United States,New York City,Florida,East,Office Supplies,Binders,Product 120,19.27,5,0.4,-11.73
+CA-10120,2024-02-01,2024-02-06,Customer 121,Consumer,United States,Los Angeles,Texas,South,Technology,Phones,Product 121,56.86,8,0.0,2.01
+CA-10121,2024-11-29,2024-12-01,Customer 122,Home Office,United States,New York City,Georgia,East,Technology,Machines,Product 122,36.93,10,0.15,12.58
+CA-10122,2023-01-19,2023-01-22,Customer 123,Consumer,United States,Los Angeles,New York,Central,Office Supplies,Labels,Product 123,10.0,1,0.1,5.88
+CA-10123,2023-06-26,2023-06-29,Customer 124,Home Office,United States,Chicago,Washington,South,Furniture,Furnishings,Product 124,82.3,10,0.05,16.3
+CA-10124,2024-09-03,2024-09-05,Customer 125,Corporate,United States,Columbus,Texas,West,Furniture,Tables,Product 125,20.6,9,0.05,-11.95
+CA-10125,2024-01-31,2024-02-01,Customer 126,Consumer,United States,Los Angeles,Ohio,West,Office Supplies,Appliances,Product 126,21.58,6,0.1,33.03
+CA-10126,2024-03-20,2024-03-22,Customer 127,Home Office,United States,Miami,Washington,South,Technology,Accessories,Product 127,52.81,3,0.2,-8.78
+CA-10127,2023-08-21,2023-08-26,Customer 128,Consumer,United States,Atlanta,California,South,Technology,Machines,Product 128,26.57,8,0.15,5.37
+CA-10128,2023-03-17,2023-03-18,Customer 129,Consumer,United States,Columbus,Georgia,East,Furniture,Chairs,Product 129,60.22,9,0.1,2.61
+CA-10129,2023-09-22,2023-09-25,Customer 130,Corporate,United States,Los Angeles,California,South,Office Supplies,Storage,Product 130,264.75,6,0.0,25.47
+CA-10130,2024-03-30,2024-04-01,Customer 131,Consumer,United States,Columbus,Florida,East,Office Supplies,Paper,Product 131,40.32,7,0.0,1.61
+CA-10131,2024-12-18,2024-12-22,Customer 132,Home Office,United States,Seattle,Georgia,Central,Furniture,Bookcases,Product 132,23.39,1,0.0,3.09
+CA-10132,2024-01-19,2024-01-23,Customer 133,Home Office,United States,Columbus,Washington,East,Furniture,Furnishings,Product 133,63.13,5,0.4,-11.59
+CA-10133,2024-07-17,2024-07-22,Customer 134,Home Office,United States,Columbus,Illinois,South,Office Supplies,Appliances,Product 134,29.37,5,0.0,15.65
+CA-10134,2024-05-20,2024-05-24,Customer 135,Home Office,United States,Chicago,Texas,South,Technology,Copiers,Product 135,55.65,10,0.0,9.19
+CA-10135,2024-01-02,2024-01-04,Customer 136,Corporate,United States,Miami,Illinois,Central,Office Supplies,Paper,Product 136,70.28,4,0.05,-7.13
+CA-10136,2023-05-24,2023-05-26,Customer 137,Consumer,United States,Houston,Washington,South,Office Supplies,Binders,Product 137,53.08,6,0.2,-13.93
+CA-10137,2023-03-10,2023-03-14,Customer 138,Corporate,United States,Houston,Florida,South,Office Supplies,Art,Product 138,57.13,7,0.4,5.56
+CA-10138,2023-04-09,2023-04-11,Customer 139,Consumer,United States,Los Angeles,California,West,Office Supplies,Appliances,Product 139,63.67,9,0.2,-14.02
+CA-10139,2024-01-31,2024-02-05,Customer 140,Consumer,United States,Columbus,Georgia,West,Technology,Copiers,Product 140,195.92,1,0.15,29.76
+CA-10140,2023-01-25,2023-01-26,Customer 141,Consumer,United States,Los Angeles,Illinois,Central,Technology,Phones,Product 141,44.6,6,0.1,12.25
+CA-10141,2024-04-13,2024-04-18,Customer 142,Corporate,United States,Chicago,Washington,East,Furniture,Furnishings,Product 142,60.46,7,0.0,-4.69
+CA-10142,2024-04-28,2024-05-03,Customer 143,Consumer,United States,Chicago,Illinois,West,Office Supplies,Labels,Product 143,109.23,3,0.4,7.41
+CA-10143,2024-07-18,2024-07-20,Customer 144,Corporate,United States,New York City,Washington,East,Office Supplies,Labels,Product 144,79.59,8,0.2,-15.84
+CA-10144,2023-05-31,2023-06-01,Customer 145,Home Office,United States,Seattle,California,South,Furniture,Furnishings,Product 145,40.99,5,0.15,5.71
+CA-10145,2023-05-24,2023-05-26,Customer 146,Home Office,United States,Chicago,Georgia,West,Furniture,Tables,Product 146,112.34,9,0.2,2.88
+CA-10146,2024-07-22,2024-07-25,Customer 147,Consumer,United States,New York City,Texas,Central,Office Supplies,Art,Product 147,27.19,5,0.2,0.2
+CA-10147,2023-02-08,2023-02-10,Customer 148,Corporate,United States,Miami,California,Central,Office Supplies,Paper,Product 148,45.54,9,0.15,-10.38
+CA-10148,2023-04-19,2023-04-21,Customer 149,Home Office,United States,Los Angeles,Illinois,Central,Furniture,Chairs,Product 149,29.46,10,0.4,-13.01
+CA-10149,2024-11-23,2024-11-25,Customer 150,Corporate,United States,Atlanta,Texas,West,Furniture,Furnishings,Product 150,86.57,4,0.3,18.13
+CA-10150,2023-02-11,2023-02-12,Customer 151,Corporate,United States,Miami,Washington,East,Technology,Machines,Product 151,141.41,9,0.15,33.32
+CA-10151,2023-07-05,2023-07-07,Customer 152,Consumer,United States,Chicago,Texas,South,Furniture,Tables,Product 152,65.28,5,0.15,12.33
+CA-10152,2024-02-02,2024-02-03,Customer 153,Home Office,United States,Miami,Washington,East,Furniture,Chairs,Product 153,57.99,10,0.0,18.24
+CA-10153,2023-08-11,2023-08-15,Customer 154,Consumer,United States,Miami,California,East,Office Supplies,Storage,Product 154,27.11,9,0.15,12.39
+CA-10154,2024-09-25,2024-09-28,Customer 155,Consumer,United States,Seattle,Illinois,South,Technology,Phones,Product 155,31.12,3,0.0,2.34
+CA-10155,2023-05-13,2023-05-14,Customer 156,Home Office,United States,Seattle,Florida,South,Furniture,Chairs,Product 156,21.02,4,0.15,1.67
+CA-10156,2023-06-12,2023-06-16,Customer 157,Home Office,United States,Seattle,Illinois,West,Office Supplies,Labels,Product 157,10.0,9,0.4,-17.97
+CA-10157,2023-08-03,2023-08-04,Customer 158,Corporate,United States,Miami,Washington,West,Technology,Phones,Product 158,39.93,10,0.15,4.21
+CA-10158,2023-08-23,2023-08-24,Customer 159,Home Office,United States,Chicago,New York,West,Furniture,Chairs,Product 159,43.01,6,0.1,17.43
+CA-10159,2024-10-19,2024-10-22,Customer 160,Corporate,United States,Atlanta,Georgia,West,Office Supplies,Paper,Product 160,310.53,2,0.05,31.66
+CA-10160,2024-08-10,2024-08-15,Customer 161,Corporate,United States,Columbus,Ohio,West,Office Supplies,Paper,Product 161,190.61,7,0.0,40.87
+CA-10161,2023-01-09,2023-01-14,Customer 162,Corporate,United States,Miami,Florida,South,Office Supplies,Labels,Product 162,85.16,2,0.2,6.21
+CA-10162,2023-03-15,2023-03-16,Customer 163,Home Office,United States,New York City,Texas,East,Office Supplies,Binders,Product 163,289.33,2,0.0,26.78
+CA-10163,2024-05-06,2024-05-08,Customer 164,Consumer,United States,Chicago,Florida,West,Office Supplies,Art,Product 164,166.12,1,0.0,11.63
+CA-10164,2023-09-10,2023-09-14,Customer 165,Corporate,United States,Miami,Georgia,West,Furniture,Chairs,Product 165,10.96,3,0.1,11.85
+CA-10165,2023-08-18,2023-08-20,Customer 166,Consumer,United States,Atlanta,Texas,East,Technology,Accessories,Product 166,128.25,6,0.2,20.74
+CA-10166,2024-06-02,2024-06-04,Customer 167,Consumer,United States,Columbus,Georgia,West,Office Supplies,Labels,Product 167,96.46,8,0.2,7.01
+CA-10167,2023-06-23,2023-06-24,Customer 168,Home Office,United States,Seattle,Texas,East,Furniture,Tables,Product 168,43.31,9,0.0,1.91
+CA-10168,2024-10-14,2024-10-15,Customer 169,Consumer,United States,Chicago,Florida,East,Furniture,Furnishings,Product 169,17.6,7,0.1,3.85
+CA-10169,2023-06-17,2023-06-18,Customer 170,Consumer,United States,Houston,Texas,South,Office Supplies,Appliances,Product 170,87.91,4,0.1,19.79
+CA-10170,2023-06-19,2023-06-20,Customer 171,Home Office,United States,Columbus,Texas,Central,Office Supplies,Binders,Product 171,10.35,6,0.15,18.56
+CA-10171,2024-01-28,2024-02-02,Customer 172,Corporate,United States,New York City,New York,South,Furniture,Furnishings,Product 172,53.67,5,0.15,21.1
+CA-10172,2024-09-25,2024-09-26,Customer 173,Consumer,United States,Miami,Illinois,Central,Office Supplies,Appliances,Product 173,33.33,8,0.05,8.71
+CA-10173,2023-07-13,2023-07-18,Customer 174,Home Office,United States,Atlanta,Illinois,Central,Furniture,Furnishings,Product 174,19.94,1,0.15,-1.02
+CA-10174,2024-05-31,2024-06-05,Customer 175,Consumer,United States,Houston,Ohio,Central,Office Supplies,Art,Product 175,141.32,1,0.1,16.59
+CA-10175,2023-01-29,2023-01-30,Customer 176,Consumer,United States,Atlanta,Ohio,West,Furniture,Furnishings,Product 176,52.82,6,0.3,5.47
+CA-10176,2023-06-14,2023-06-17,Customer 177,Corporate,United States,Houston,Washington,South,Office Supplies,Appliances,Product 177,62.75,10,0.1,12.81
+CA-10177,2024-02-26,2024-03-01,Customer 178,Consumer,United States,Chicago,Washington,Central,Office Supplies,Art,Product 178,112.88,2,0.1,27.55
+CA-10178,2023-12-05,2023-12-07,Customer 179,Home Office,United States,Houston,Washington,East,Technology,Accessories,Product 179,54.22,5,0.1,33.79
+CA-10179,2024-10-09,2024-10-14,Customer 180,Consumer,United States,New York City,New York,West,Furniture,Bookcases,Product 180,78.35,1,0.15,1.65
+CA-10180,2024-05-10,2024-05-14,Customer 181,Corporate,United States,New York City,Ohio,South,Office Supplies,Art,Product 181,104.87,7,0.2,32.16
+CA-10181,2023-12-31,2024-01-03,Customer 182,Corporate,United States,Los Angeles,Georgia,Central,Furniture,Chairs,Product 182,85.92,1,0.1,20.51
+CA-10182,2023-12-08,2023-12-10,Customer 183,Home Office,United States,New York City,Washington,East,Technology,Machines,Product 183,68.63,4,0.15,7.88
+CA-10183,2024-05-14,2024-05-16,Customer 184,Corporate,United States,Columbus,Washington,South,Technology,Machines,Product 184,227.35,9,0.2,42.99
+CA-10184,2024-10-18,2024-10-23,Customer 185,Consumer,United States,Houston,Florida,South,Furniture,Tables,Product 185,147.46,1,0.1,31.29
+CA-10185,2024-05-25,2024-05-26,Customer 186,Corporate,United States,New York City,California,West,Office Supplies,Art,Product 186,50.98,4,0.1,-0.17
+CA-10186,2023-11-23,2023-11-26,Customer 187,Home Office,United States,Chicago,Georgia,South,Technology,Copiers,Product 187,26.37,6,0.3,22.5
+CA-10187,2023-08-05,2023-08-10,Customer 188,Corporate,United States,Atlanta,Washington,West,Office Supplies,Appliances,Product 188,91.0,6,0.1,22.46
+CA-10188,2023-10-28,2023-10-31,Customer 189,Corporate,United States,Seattle,Washington,Central,Office Supplies,Paper,Product 189,64.89,8,0.1,35.24
+CA-10189,2023-05-12,2023-05-13,Customer 190,Corporate,United States,Atlanta,Washington,West,Furniture,Furnishings,Product 190,214.26,1,0.4,-17.94
+CA-10190,2023-03-11,2023-03-12,Customer 191,Home Office,United States,Los Angeles,California,East,Furniture,Chairs,Product 191,120.3,7,0.0,10.19
+CA-10191,2023-09-09,2023-09-14,Customer 192,Corporate,United States,Atlanta,California,West,Technology,Accessories,Product 192,100.62,1,0.0,-4.2
+CA-10192,2024-02-19,2024-02-20,Customer 193,Corporate,United States,Houston,New York,East,Technology,Machines,Product 193,55.17,7,0.05,16.65
+CA-10193,2024-03-20,2024-03-24,Customer 194,Consumer,United States,Los Angeles,Georgia,West,Office Supplies,Binders,Product 194,27.1,3,0.3,4.91
+CA-10194,2023-07-01,2023-07-03,Customer 195,Home Office,United States,Houston,New York,South,Office Supplies,Storage,Product 195,46.6,8,0.0,0.23
+CA-10195,2023-06-16,2023-06-21,Customer 196,Corporate,United States,Chicago,Texas,Central,Office Supplies,Art,Product 196,79.95,3,0.0,11.01
+CA-10196,2023-04-01,2023-04-04,Customer 197,Home Office,United States,Los Angeles,California,East,Office Supplies,Paper,Product 197,13.69,1,0.0,-13.68
+CA-10197,2024-12-14,2024-12-18,Customer 198,Corporate,United States,Miami,Florida,West,Technology,Machines,Product 198,147.43,8,0.0,43.87
+CA-10198,2024-06-14,2024-06-19,Customer 199,Corporate,United States,Columbus,Ohio,West,Technology,Accessories,Product 199,285.33,3,0.0,51.19
+CA-10199,2023-02-08,2023-02-09,Customer 200,Corporate,United States,Columbus,Florida,West,Technology,Phones,Product 200,11.52,2,0.1,38.91
+CA-10005,2023-02-27,2023-03-04,Customer 6,Corporate,United States,Atlanta,California,Central,Furniture,Furnishings,Product 6,100.95,1,0.1,-17.45
+CA-10025,2023-03-27,2023-04-01,Customer 26,Consumer,United States,Atlanta,Georgia,West,Technology,Phones,Product 26,31.14,6,0.15,-1.92
+CA-10075,2023-01-12,2023-01-14,Customer 76,Home Office,United States,New York City,Illinois,Central,Office Supplies,Appliances,Product 76,34.62,5,0.15,9.53
